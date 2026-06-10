@@ -1,0 +1,13 @@
+[run]
+source = app
+omit =
+    app/schemas/*
+    app/models/*
+    app/api/*
+    app/api/routes/reports.py
+    app/api/routes/detect.py
+    app/middleware/*
+
+[report]
+fail_under = 80
+show_missing = True
